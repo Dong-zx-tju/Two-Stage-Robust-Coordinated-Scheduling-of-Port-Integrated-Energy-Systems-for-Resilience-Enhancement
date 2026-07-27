@@ -1,0 +1,105 @@
+C&CG COMPLETE ITERATION-LEVEL CONVERGENCE RECORD
+================================================
+
+Gap definition:
+  absolute_gap(k) = max(UB_best(k) - LB(k), 0)
+  relative_gap(k) = absolute_gap(k) / max(1, abs(UB_best(k)))
+Stopping rule:
+  absolute_gap(k) <= 1.0e-5
+Maximum iterations:
+  20
+
+Iteration 1
+  LB                       = 59286.45720116642
+  UB_best                  = 144484.67341807246
+  Absolute gap             = 85198.21621690603
+  Relative gap (%)         = 58.966957671961104
+  Normal cost              = 59286.45720116642
+  Master eta               = 0
+  Worst recourse cost      = 85198.21621690605
+  Scenarios before update  = 0
+  Worst fault ID/window    = 2 / 8-13 h
+  Iteration time (s)       = 21.9220985
+  Cumulative time (s)      = 21.995712
+
+Iteration 2
+  LB                       = 86084.212725281
+  UB_best                  = 96863.8769245059
+  Absolute gap             = 10779.664199224891
+  Relative gap (%)         = 11.128673083802317
+  Normal cost              = 59291.97862466583
+  Master eta               = 26792.234100615166
+  Worst recourse cost      = 37571.89829984005
+  Scenarios before update  = 1
+  Worst fault ID/window    = 6 / 10-15 h
+  Iteration time (s)       = 14.2681445
+  Cumulative time (s)      = 36.2647805
+
+Iteration 3
+  LB                       = 87188.82444432357
+  UB_best                  = 94582.00415086196
+  Absolute gap             = 7393.179706538387
+  Relative gap (%)         = 7.816687511448774
+  Normal cost              = 59290.95257829486
+  Master eta               = 27897.871866028705
+  Worst recourse cost      = 35291.05157256711
+  Scenarios before update  = 2
+  Worst fault ID/window    = 8 / 11-16 h
+  Iteration time (s)       = 16.5380801
+  Cumulative time (s)      = 52.8036909
+
+Iteration 4
+  LB                       = 87192.76689629054
+  UB_best                  = 89883.63356295669
+  Absolute gap             = 2690.8666666661447
+  Relative gap (%)         = 2.993722616677925
+  Normal cost              = 59294.89503026184
+  Master eta               = 27897.871866028705
+  Worst recourse cost      = 30588.73853269485
+  Scenarios before update  = 3
+  Worst fault ID/window    = 4 / 9-14 h
+  Iteration time (s)       = 19.5965073
+  Cumulative time (s)      = 72.4010071
+
+Iteration 5
+  LB                       = 89876.21581931115
+  UB_best                  = 89883.63356295669
+  Absolute gap             = 7.417743645535666
+  Relative gap (%)         = 0.008252607678949801
+  Normal cost              = 59287.47728661578
+  Master eta               = 30588.738532695366
+  Worst recourse cost      = 32916.97046425127
+  Scenarios before update  = 4
+  Worst fault ID/window    = 2 / 8-13 h
+  Iteration time (s)       = 19.8623952
+  Cumulative time (s)      = 92.2641644
+
+Iteration 6
+  LB                       = 89876.74771736123
+  UB_best                  = 89876.74771736082
+  Raw UB-LB                = approximately -4.1e-10
+  Reported absolute gap    = 0
+  Relative gap (%)         = 0
+  Normal cost              = 59288.00918466587
+  Master eta               = 30588.738532695366
+  Worst recourse cost      = 30588.73853269496
+  Scenarios before update  = 5
+  Worst fault ID/window    = 4 / 9-14 h
+  Iteration time (s)       = 24.5335752
+  Cumulative time (s)      = 116.8009121
+
+Run summary
+  Iterations               = 6
+  Runtime (s)              = 116.8015788
+  Final LB                 = 89876.74771736123
+  Final UB                 = 89876.74771736082
+  Final absolute gap       = 0
+  Final relative gap (%)   = 0
+  Converged                = true
+  Stalled                  = false
+  Accumulated scenarios    = 5
+  Accumulated fault IDs    = [2 6 8 4 2]
+
+The numerical inputs and complete engineering constraint matrices are outside
+the release scope. This file is the complete saved iteration-level convergence
+record used to report the six-iteration C&CG result.
